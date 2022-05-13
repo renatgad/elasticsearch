@@ -1,4 +1,4 @@
-#Picnic Elasticsearch Home Assignment
+# Picnic Elasticsearch Home Assignment
 ## Design Decisions
 For identical role on each node requirement;
 - added pod affinity to node sets to deploy at least one pod on every kubernetes node. If one node down; other nodes can continue to work.
